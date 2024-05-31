@@ -1,0 +1,29 @@
+:root{
+    --main-txt-color:#000000;
+    --sec-txt-color: white;
+    --main-background-color:#403D52;
+    --paige-color:#ffeced;
+    --box-main-color:#E8F4CD ;
+    --cta-btn-color:#FA198B;
+    --title-h1:"Great Vibes", cursive;
+    --title-h2:"Patrick Hand", cursive; 
+    --pragraf-font: "Lora", serif; 
+    --title-h1-color:#FA198B ;
+}
+body{
+    background-color: var(--paige-color);
+    margin: 0;
+    padding: 0;
+}
+h2{
+    color: var(--main-txt-color);
+    font-family: var(--title-h1);
+}
+.topbar{
+    background-color: var(--main-background-color);
+    color: var(--sec-txt-color);
+}
+.nav-ul {
+    list-style: none;
+    color: var(--sec-txt-color);
+}
